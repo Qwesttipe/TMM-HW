@@ -1,0 +1,11 @@
+<resources>
+    <!-- Minimal window theme for a pure-Compose app. All visual styling is
+         handled by the Compose MaterialTheme; the XML layer only needs to
+         suppress the action bar and make the window transparent for
+         edge-to-edge Compose rendering. -->
+    <style name="Theme.AutoISOCamera" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>
